@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { NeueMontreal } from "../../public/font";
+import { Nav } from "@/components/fragments";
 
 const font = NeueMontreal;
 
@@ -16,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className}`}>{children}</body>
+      <body
+        className={`bg-base p-4 text-white w-full h-screen ${font.className}`}
+      >
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }

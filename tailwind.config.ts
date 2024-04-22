@@ -12,6 +12,7 @@ const config: Config = {
         base: "#000109",
         slate: "#A7A7A7",
         white: "#EDEDED",
+        green: "#00FF94",
       },
     },
   },
