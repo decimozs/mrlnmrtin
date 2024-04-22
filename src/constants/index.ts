@@ -6,8 +6,8 @@ const navItems: Array<TNavProps> = [
     href: "/",
   },
   {
-    title: "Showcase",
-    href: "/showcase",
+    title: "Github",
+    href: "https://github.com/decimozs",
   },
 ];
 
