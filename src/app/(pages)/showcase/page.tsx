@@ -66,6 +66,7 @@ const ProjectItems = () => {
           href={item.href}
           key={index}
           className={`flex items-center justify-between ${item.tech} ${item.description} tooltip btooltip `}
+          target="_blank"
         >
           <p>{`+ ${item.title}`}</p>
           <p className="italic font-light text-slate">{item.type}</p>
@@ -83,6 +84,7 @@ const ArchiveItems = () => {
           href={item.href}
           key={index}
           className="flex items-center justify-between"
+          target="_blank"
         >
           <p>
             <span className="text-slate font-light">/ </span> {item.title}
