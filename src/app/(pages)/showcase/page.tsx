@@ -3,6 +3,7 @@
 import { archiveItems, projectItems } from "@/constants";
 import Link from "next/link";
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 type TActionProps = {
   toggleProject: () => void;
@@ -60,7 +61,18 @@ const ShowcaseMenu = ({ toggleProject, toggleArchive }: TActionProps) => {
 
 const ProjectItems = () => {
   return (
-    <div className={`flex mt-8 flex-col gap-4 lg:mt-4 lg:w-[427px] `}>
+    <motion.div
+      className={`flex mt-8 flex-col gap-4 lg:mt-4 lg:w-[427px] `}
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: {
+          ease: "linear",
+          duration: 0.5,
+          delay: 0.1,
+        },
+      }}
+    >
       {projectItems.map((item, index) => (
         <Link
           href={item.href}
@@ -72,13 +84,24 @@ const ProjectItems = () => {
           <p className="italic font-light text-slate">{item.type}</p>
         </Link>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
 const ArchiveItems = () => {
   return (
-    <div className={`flex mt-8 flex-col gap-4 lg:mt-4 lg:w-[427px] `}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: {
+          ease: "linear",
+          duration: 0.5,
+          delay: 0.1,
+        },
+      }}
+      className={`flex mt-8 flex-col gap-4 lg:mt-4 lg:w-[427px] `}
+    >
       {archiveItems.map((item, index) => (
         <Link
           href={item.href}
@@ -92,7 +115,7 @@ const ArchiveItems = () => {
           <p className="italic font-light text-slate">{item.year}</p>
         </Link>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
