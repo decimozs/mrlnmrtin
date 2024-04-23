@@ -44,13 +44,13 @@ const ShowcaseMenu = ({ toggleProject, toggleArchive }: TActionProps) => {
     >
       <button
         onClick={handleProjectClick}
-        className={projectClicked ? "text-white" : "text-slate"}
+        className={projectClicked ? " smooth-hover" : "text-slate"}
       >
         + Selected Project
       </button>
       <button
         onClick={handleArchiveClick}
-        className={archiveClicked ? "text-white" : "text-slate"}
+        className={archiveClicked ? " smooth-hover" : "text-slate"}
       >
         <p>/ Archives</p>
       </button>
