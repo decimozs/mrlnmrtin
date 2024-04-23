@@ -8,7 +8,13 @@ export default function Bio() {
       </p>
       <p className="max-w-[406px]">
         Current technology stack I used to build digital products includes
-        Next.js, Tailwind CSS, Drizzle, and Supabase.
+        Next.js, Tailwind CSS, Drizzle, and Supabase, along with{" "}
+        <span className="text-white underline italic cursor-pointer nvim btooltip">
+          <a href="https://github.com/decimozs/minimal-gruvbox" target="_blank">
+            Neovim
+          </a>
+        </span>{" "}
+        for development.
       </p>
       <p className="max-w-[417px]">
         Please feel free to reach out to me via email, and I will make every

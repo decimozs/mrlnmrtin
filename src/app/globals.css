@@ -21,3 +21,109 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.tooltip::after {
+  font-style: normal;
+  padding: 5px 1rem;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+}
+
+.btooltip::before {
+  font-style: normal;
+  padding: 5px 1rem;
+  position: absolute;
+  margin-left: -16.5rem;
+  margin-top: -5px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btooltip:hover::before {
+  opacity: 1;
+}
+
+.nvim::before {
+  content: "i love vim motions btw ❤️";
+  margin-left: -16.5rem;
+  margin-top: -5px;
+}
+
+.email::after {
+  content: "get a coffee with me ☕";
+  margin-left: 1.8rem;
+  margin-top: -5px;
+}
+
+.project::after {
+  content: "Built with Python";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.python::after {
+  content: "Built with Python, Pandas, NumPy, Matplotlib, Seaborn and Scikit-learn";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.javascript::after {
+  content: "Built with Next.Js, Tailwind CSS, Framer Motion and Vercel";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.fullstack::after {
+  content: "Built with Next.Js, Tailwind CSS, Framer Motion, Drizzle, Supabase and Vercel";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.java::after {
+  content: "Built with Java,Java Swing, JUnit and MySql";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.goc::after {
+  content: "Built with Go and C";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.game::after {
+  content: "Built with C++ and SFML";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.jsnode::after {
+  content: "Built with React, Vite, OpenAI Api and NodeJs";
+  margin-left: 29rem;
+  margin-top: -5px;
+}
+
+.vb::after {
+  content: "Built with Visual Basic.Net and MySql.";
+  margin-left: 29rem;
+  margin-top: -5px;
+}

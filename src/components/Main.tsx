@@ -1,4 +1,4 @@
-import { Bio, Header, Nav } from "./fragments";
+import { Bio, Header } from "./fragments";
 import { EmailButton, StatusIndicator } from "./ui";
 
 export default function Main() {
