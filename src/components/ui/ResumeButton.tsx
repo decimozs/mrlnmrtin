@@ -1,13 +1,14 @@
-import Link from "next/link";
-
 export default function ResumeButton() {
+  const handleClick = () => {
+    window.open("/docs/resume.pdf", "_blank");
+  };
+
   return (
-    <Link
-      href="/docs/resume.pdf"
-      className=" text-slate mt-[-0.2rem] resume tooltip smooth-hover"
-      target="_blank"
+    <button
+      onClick={handleClick}
+      className="text-slate resume tooltip smooth-hover"
     >
       Resume
-    </Link>
+    </button>
   );
 }
