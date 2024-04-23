@@ -74,10 +74,10 @@
 }
 
 .resume::after {
-  content: "get to know me more";
+  content: "get to know me more🤝";
   margin-left: 1.8rem;
   margin-top: -5px;
-  width: 180px;
+  width: 200px;
   text-align: center;
 }
 
