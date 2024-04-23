@@ -80,7 +80,7 @@ const ProjectItems = () => {
           className={`flex items-center justify-between ${item.tech} ${item.description} tooltip btooltip `}
           target="_blank"
         >
-          <p>{`+ ${item.title}`}</p>
+          <p className="smooth-hover">{`+ ${item.title}`}</p>
           <p className="italic font-light text-slate">{item.type}</p>
         </Link>
       ))}
@@ -109,7 +109,7 @@ const ArchiveItems = () => {
           className="flex items-center justify-between"
           target="_blank"
         >
-          <p>
+          <p className="smooth-hover">
             <span className="text-slate font-light">/ </span> {item.title}
           </p>
           <p className="italic font-light text-slate">{item.year}</p>
