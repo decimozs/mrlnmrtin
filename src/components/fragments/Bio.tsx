@@ -1,3 +1,5 @@
+import { Version } from "../ui";
+
 export default function Bio() {
   return (
     <div className="text-slate flex flex-col gap-4">
@@ -20,6 +22,7 @@ export default function Bio() {
         Please feel free to reach out to me via email, and I will make every
         effort to promptly respond to your inquiries and feedback.
       </p>
+      <Version />
     </div>
   );
 }
