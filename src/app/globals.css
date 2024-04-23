@@ -25,7 +25,7 @@
 .tooltip::after {
   font-style: normal;
   padding: 5px 1rem;
-  position: absolute;
+  position: fixed;
   background: rgba(255, 255, 255, 0.12);
   border-radius: 9px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@
 .btooltip::before {
   font-style: normal;
   padding: 5px 1rem;
-  position: absolute;
+  position: fixed;
   margin-left: -16.5rem;
   margin-top: -5px;
   background: rgba(255, 255, 255, 0.12);
