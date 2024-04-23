@@ -3,7 +3,7 @@ import { EmailButton, StatusIndicator } from "./ui";
 
 export default function Main() {
   return (
-    <main className="w-full h-[99%] lg:w-auto lg:flex items-center justify-center">
+    <main className="w-full h-[99%] lg:w-auto lg:flex lg:items-center lg:justify-center">
       <div className="flex h-[97%] w-full flex-col justify-between lg:justify-center lg:w-auto lg:mt-[9rem]">
         <div className="mt-4 flex flex-col gap-4">
           <div className="lg:hidden">
