@@ -80,7 +80,10 @@ const ProjectItems = () => {
           className={`flex items-center justify-between ${item.tech} ${item.description} tooltip btooltip `}
           target="_blank"
         >
-          <p className="smooth-hover">{`+ ${item.title}`}</p>
+          <p className="smooth-hover">
+            <span className="text-slate">+ </span>
+            {item.title}
+          </p>
           <p className="italic font-light text-slate">{item.type}</p>
         </Link>
       ))}
