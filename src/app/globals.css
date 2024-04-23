@@ -9,7 +9,6 @@
 .glass {
   background: rgba(255, 255, 255, 0.12);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.4px);
   -webkit-backdrop-filter: blur(2.4px);
   border: 1px solid rgba(255, 255, 255, 0.22);
@@ -28,7 +27,6 @@
   position: fixed;
   background: rgba(255, 255, 255, 0.12);
   border-radius: 9px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.4px);
   -webkit-backdrop-filter: blur(2.4px);
   border: 1px solid rgba(255, 255, 255, 0.22);
@@ -49,7 +47,6 @@
   margin-top: -5px;
   background: rgba(255, 255, 255, 0.12);
   border-radius: 9px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.4px);
   -webkit-backdrop-filter: blur(2.4px);
   border: 1px solid rgba(255, 255, 255, 0.22);

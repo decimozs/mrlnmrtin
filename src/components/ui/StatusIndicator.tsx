@@ -1,8 +1,9 @@
 export default function StatusIndicator() {
   return (
     <div className="p-1 px-3 w-[145px] flex items-center gap-2 glass">
-      <span className="animate-pulse block h-[13px] w-[13px] bg-green rounded-[50%]"></span>
-      <h1 className="text-[0.8rem]">Available to work</h1>
+      <span className="animate-ping absolute inline-flex h-[10px] w-[12px] rounded-full bg-sky-400 "></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-green"></span>
+      <p className="text-[0.8rem]">Available to Work</p>
     </div>
   );
 }
