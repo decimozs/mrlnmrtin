@@ -50,7 +50,4 @@ export const seo: Metadata = {
     `${title} | React Developer`,
     `${title} | Typescript Developer`,
   ],
-  viewport:
-    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
-  themeColor: "#000109",
 };
