@@ -187,3 +187,11 @@
   margin-top: -5px;
   max-width: 410px;
 }
+
+.smooth-hover {
+  color: #ededed;
+  transition: color 0.3s ease;
+}
+.smooth-hover:hover {
+  color: #a7a7a7;
+}

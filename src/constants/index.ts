@@ -19,7 +19,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 1,
     title: "Predicting Carbon Monoxide Levels",
-    href: "/",
+    href: "https://github.com/decimozs/predicting-carbon-monoxide-levels",
     type: "Academic",
     tech: "python",
     description: "predictingcarbonmonoxidelevelsdesc",
@@ -27,7 +27,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 2,
     title: "Verdant Vibes",
-    href: "/",
+    href: "https://github.com/decimozs/verdant-vibes",
     type: "Academic",
     tech: "java",
     description: "verdantvibesdesc",
@@ -35,7 +35,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 3,
     title: "JMAA",
-    href: "/",
+    href: "https://github.com/decimozs/jmaa",
     type: "Academic",
     tech: "java",
     description: "jmaadesc",
@@ -43,7 +43,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 4,
     title: "Inspirify",
-    href: "/",
+    href: "https://github.com/decimozs/inspirify",
     type: "Personal",
     tech: "goc",
     description: "inspirifydesc",
@@ -59,7 +59,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 6,
     title: "PLP Google Classroom",
-    href: "/",
+    href: "https://github.com/decimozs/plp-university-portal",
     type: "Academic",
     tech: "vb",
     description: "plpgclassroomdesc",
@@ -67,7 +67,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 7,
     title: "Decimo AI",
-    href: "/",
+    href: "https://github.com/decimozs/decimo-ai",
     type: "Personal",
     tech: "jsnode",
     description: "decimoaidesc",
@@ -75,7 +75,7 @@ const projectItems: Array<TProjectProps> = [
   {
     id: 8,
     title: "Pacman Clone",
-    href: "/",
+    href: "https://github.com/decimozs/pacman-clone",
     type: "Academic",
     tech: "game",
     description: "pacmandesc",
@@ -85,68 +85,68 @@ const projectItems: Array<TProjectProps> = [
 const archiveItems: Array<TArchiveProps> = [
   {
     title: "Speed Converter",
-    href: "/",
+    href: "https://github.com/decimozs/speed-converter",
     year: 2024,
   },
   {
     title: "Bunch Information System",
-    href: "/",
+    href: "https://github.com/decimozs/bunch-information-system",
     year: 2024,
   },
   {
     title: "Capital Guard",
-    href: "/",
+    href: "https://github.com/decimozs/capital-guard",
     year: 2024,
   },
   {
     title: "SWE-Notebook",
-    href: "/",
+    href: "https://github.com/decimozs/swe-notebook",
     year: 2023,
   },
   {
     title: "Arsenals",
-    href: "/",
+    href: "https://github.com/decimozs/arsenals",
     year: 2023,
   },
   {
     title: "ART CLI",
-    href: "/",
+    href: "/https://github.com/decimozs/art-cli",
     year: 2023,
   },
   {
     title: "V2 D7holic",
-    href: "/",
+    href: "https://github.com/decimozs/v2-d7holic",
     year: 2023,
   },
   {
     title: "V1 D7holic",
-    href: "/",
+    href: "https://github.com/decimozs/v1-d7holic",
     year: 2023,
   },
 
   {
     title: "Hoopz",
-    href: "/",
+    href: "https://github.com/decimozs/hoopz-blogsite",
     year: 2023,
   },
   {
     title: "La Cactus Club",
-    href: "/",
+    href: "https://github.com/decimozs/la-cactus-club",
     year: 2023,
   },
   {
     title: "Jumpforce",
-    href: "/",
+    href: "https://github.com/decimozs/jumpforce",
     year: 2023,
   },
   {
     title: "Artistic",
-    href: "/",
+    href: "https://github.com/decimozs/artistics-landing-page",
     year: 2023,
   },
   {
     title: "Leafy",
-    href: "/",
+    href: "https://github.com/decimozs/leafy",
     year: 2022,
   },
 ];

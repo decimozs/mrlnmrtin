@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { NeueMontreal } from "../../public/font";
 import { Nav } from "@/components/fragments";
-import { Time } from "@/components/ui";
 
 const font = NeueMontreal;
 

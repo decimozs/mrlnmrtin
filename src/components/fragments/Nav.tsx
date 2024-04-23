@@ -14,7 +14,10 @@ const NavigationItems = () => {
           <Link
             key={index}
             href={item.href}
-            className={currentPath === item.href ? "" : "text-slate"}
+            className={
+              currentPath === item.href ? "smooth-hover" : "text-slate "
+            }
+            target={index === navItems.length - 1 ? "_blank" : "_self"}
           >
             {item.title}
           </Link>
@@ -26,5 +29,8 @@ const NavigationItems = () => {
 };
 
 export default function Nav() {
-  return <NavigationItems />;
+  const paths = ["/", "/showcase"];
+  const currentPath = usePathname();
+
+  return paths.includes(currentPath) ? <NavigationItems /> : null;
 }
