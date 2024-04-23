@@ -30,11 +30,7 @@ export const seo: Metadata = {
     url: URLS,
     title,
     description,
-    images: [
-      {
-        url: "/opengraph-image.png",
-      },
-    ],
+    images: "/opengraph-image.png",
     type: "website",
     siteName: title,
   },
