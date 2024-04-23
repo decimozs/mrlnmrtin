@@ -9,6 +9,7 @@ export type TProjectProps = {
   href: string;
   type: string;
   tech: string;
+  description: string;
 };
 
 export type TArchiveProps = {

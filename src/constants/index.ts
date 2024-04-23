@@ -22,6 +22,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Academic",
     tech: "python",
+    description: "predictingcarbonmonoxidelevelsdesc",
   },
   {
     id: 2,
@@ -29,6 +30,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Academic",
     tech: "java",
+    description: "verdantvibesdesc",
   },
   {
     id: 3,
@@ -36,6 +38,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Academic",
     tech: "java",
+    description: "jmaadesc",
   },
   {
     id: 4,
@@ -43,6 +46,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Personal",
     tech: "goc",
+    description: "inspirifydesc",
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Comission",
     tech: "fullstack",
+    description: "crochetdesc",
   },
   {
     id: 6,
@@ -57,6 +62,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Academic",
     tech: "vb",
+    description: "plpgclassroomdesc",
   },
   {
     id: 7,
@@ -64,6 +70,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Personal",
     tech: "jsnode",
+    description: "decimoaidesc",
   },
   {
     id: 8,
@@ -71,6 +78,7 @@ const projectItems: Array<TProjectProps> = [
     href: "/",
     type: "Academic",
     tech: "game",
+    description: "pacmandesc",
   },
 ];
 

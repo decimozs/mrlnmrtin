@@ -66,36 +66,43 @@
   content: "i love vim motions btw ❤️";
   margin-left: -16.5rem;
   margin-top: -5px;
+  text-align: center;
 }
 
 .email::after {
   content: "get a coffee with me ☕";
   margin-left: 1.8rem;
   margin-top: -5px;
+  text-align: center;
 }
 
-.project::after {
-  content: "Built with Python";
-  margin-left: 29rem;
+.resume::after {
+  content: "get to know me more";
+  margin-left: 1.8rem;
   margin-top: -5px;
+  width: 180px;
+  text-align: center;
 }
 
 .python::after {
   content: "Built with Python, Pandas, NumPy, Matplotlib, Seaborn and Scikit-learn";
   margin-left: 29rem;
   margin-top: -5px;
+  max-width: 400px;
 }
 
 .javascript::after {
   content: "Built with Next.Js, Tailwind CSS, Framer Motion and Vercel";
   margin-left: 29rem;
   margin-top: -5px;
+  max-width: 400px;
 }
 
 .fullstack::after {
   content: "Built with Next.Js, Tailwind CSS, Framer Motion, Drizzle, Supabase and Vercel";
   margin-left: 29rem;
   margin-top: -5px;
+  max-width: 410px;
 }
 
 .java::after {
@@ -126,4 +133,60 @@
   content: "Built with Visual Basic.Net and MySql.";
   margin-left: 29rem;
   margin-top: -5px;
+}
+
+.predictingcarbonmonoxidelevelsdesc::before {
+  content: "A machine learning project has been undertaken to predict carbon monoxide concentrations, leveraging an air quality dataset from the UCI Machine Learning Repository. ";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.verdantvibesdesc::before {
+  content: "A plant-focused e-commerce desktop application tailored specifically for plant-related enterprises.";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.plpgclassroomdesc::before {
+  content: "The PLP University Portal with integrated Google Classroom features represents a cutting-edge solution designed to streamline academic activities and enhance collaboration within the educational community. ";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.inspirifydesc::before {
+  content: "Inspirify is a command-line application that generates random quotes to provide inspiration and motivation. This CLI tool allows you to receive a fresh dose of wisdom and insightful quotes with every run.";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.decimoaidesc::before {
+  content: "Full-stack web app, a simple chat interactive bot powered by openAi API.";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.pacmandesc::before {
+  content: "Inspired by the classic Pacman game, dive into the thrilling world of this Pacman-inspired game.";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.jmaadesc:before {
+  content: "A streamlined car rental/return management desktop application. This comprehensive solution enables car businesses to efficiently manage their operations with ease and convenience.";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
+}
+
+.crochetdesc::before {
+  content: "The Crochet by Sogoni-dk is a crochet based ecommerce website.";
+  margin-left: -28rem;
+  margin-top: -5px;
+  max-width: 410px;
 }

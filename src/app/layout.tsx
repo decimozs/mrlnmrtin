@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-base p-4 text-white w-full h-screen ${font.className}`}
+        className={`bg-base p-4 text-white w-full h-screen overflow-hidden ${font.className}`}
       >
         <Nav />
         {children}
