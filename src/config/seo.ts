@@ -33,7 +33,6 @@ export const seo: Metadata = {
     images: "/opengraph-image.png",
     type: "website",
     siteName: title,
-    alt: "Marlon Martin",
   },
   formatDetection: {
     telephone: false,
