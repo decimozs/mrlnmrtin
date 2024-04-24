@@ -11,7 +11,7 @@ export default function Header() {
       <div className="text-slate lg:fixed lg:top-[15%] lg:w-[422px]">
         <h1>Summer</h1>
         <div className="lg:flex lg:items-center lg:justify-between">
-          <h1>Manila, Philippines</h1>
+          <h1>Metropolitan Manila</h1>
           <Time />
         </div>
       </div>
