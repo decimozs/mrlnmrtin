@@ -8,7 +8,7 @@ export const description =
 export const seo: Metadata = {
   title,
   description,
-  metadataBase: new URL(URLS!),
+  metadataBase: new URL("https://mrlnmrtn.vercel.app"),
   alternates: {
     canonical: URLS,
     languages: {
