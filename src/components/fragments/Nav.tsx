@@ -9,7 +9,7 @@ const NavigationItems = () => {
   const currentPath = usePathname();
   return (
     <nav className="flex items-center justify-between lg:w-[420px] lg:absolute lg:top-[10%] lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2">
-      <ul className="flex flex-row gap-4">
+      <div className="flex flex-row gap-4">
         {navItems.map((item, index) => (
           <Link
             key={index}
@@ -22,7 +22,7 @@ const NavigationItems = () => {
             {item.title}
           </Link>
         ))}
-      </ul>
+      </div>
       <ResumeButton />
     </nav>
   );
