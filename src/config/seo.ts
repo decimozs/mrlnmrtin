@@ -9,7 +9,7 @@ export const seo: Metadata = {
   title,
   description,
   alternates: {
-    canonical: "/",
+    canonical: URLS,
     languages: {
       "en-US": "/en-US",
     },
