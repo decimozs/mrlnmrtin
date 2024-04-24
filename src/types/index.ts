@@ -7,7 +7,7 @@ export type TProjectProps = {
   id: number;
   title: string;
   href: string;
-  type: string;
+  type: "Academic" | "Personal" | "Comission";
   tech: string;
   description: string;
 };

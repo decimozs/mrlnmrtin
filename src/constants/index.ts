@@ -1,6 +1,6 @@
 import { TArchiveProps, TNavProps, TProjectProps } from "@/types";
 
-const navItems: Array<TNavProps> = [
+const navItems: TNavProps[] = [
   {
     title: "Index",
     href: "/",
@@ -15,7 +15,7 @@ const navItems: Array<TNavProps> = [
   },
 ];
 
-const projectItems: Array<TProjectProps> = [
+const projectItems: TProjectProps[] = [
   {
     id: 1,
     title: "Predicting Carbon Monoxide Levels",
@@ -82,7 +82,7 @@ const projectItems: Array<TProjectProps> = [
   },
 ];
 
-const archiveItems: Array<TArchiveProps> = [
+const archiveItems: TArchiveProps[] = [
   {
     title: "Speed Converter",
     href: "https://github.com/decimozs/speed-converter",
