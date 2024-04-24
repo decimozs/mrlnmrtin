@@ -9,8 +9,8 @@ export default function Bio() {
         community. Moreover, I am eager to contribute to open-source projects.
       </p>
       <p className="max-w-[406px]">
-        Current technology stack I used to build digital products includes
-        Next.js, Tailwind CSS, Drizzle, and Supabase, along with{" "}
+        Current technology I&apos;m using in development right now include
+        Typescript, Tailwind CSS, and Supabase, along with{" "}
         <span className="text-white underline italic cursor-pointer nvim btooltip">
           <a href="https://github.com/decimozs/minimal-gruvbox" target="_blank">
             Neovim
