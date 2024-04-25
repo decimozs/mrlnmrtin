@@ -195,3 +195,18 @@
 .smooth-hover:hover {
   color: #a7a7a7;
 }
+
+.version {
+  color: #a7a7a7;
+  transition: color 0.3s ease;
+}
+
+.version:hover {
+  color: #ededed;
+}
+
+.version::before {
+  content: "source code";
+  margin-left: -1.5rem;
+  margin-top: -3rem;
+}

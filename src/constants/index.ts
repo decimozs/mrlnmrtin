@@ -1,4 +1,9 @@
-import { TArchiveProps, TNavProps, TProjectProps } from "@/types";
+import {
+  TArchiveProps,
+  TNavProps,
+  TProjectProps,
+  TVersionProps,
+} from "@/types";
 
 const navItems: TNavProps[] = [
   {
