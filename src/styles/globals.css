@@ -59,6 +59,27 @@
   opacity: 1;
 }
 
+.ctooltip::before {
+  font-style: normal;
+  padding: 5px 1rem;
+  position: fixed;
+  margin-top: -2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9px;
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.ctooltip:hover::before {
+  opacity: 1;
+}
+
 .nvim::before {
   content: "i love vim motions btw ❤️";
   margin-left: -39.5rem;
@@ -207,6 +228,4 @@
 
 .version::before {
   content: "source code";
-  margin-left: -1.5rem;
-  margin-top: -3rem;
 }

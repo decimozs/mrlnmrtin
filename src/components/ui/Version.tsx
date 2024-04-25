@@ -6,7 +6,7 @@ export default function Version() {
       <Link
         href="https://github.com/decimozs/mrlnmrtin"
         target="_blank"
-        className="version btooltip"
+        className="version ctooltip"
       >
         + Version 3
       </Link>
