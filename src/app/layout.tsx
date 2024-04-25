@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import { NeueMontreal } from "../../public/font";
@@ -26,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <SpeedInsights />
       <body
         className={`bg-base p-4 text-white w-full h-screen ${font.className}`}
       >
