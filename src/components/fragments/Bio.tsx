@@ -1,3 +1,5 @@
+"use client";
+
 import { Version } from "../ui";
 
 export default function Bio() {
