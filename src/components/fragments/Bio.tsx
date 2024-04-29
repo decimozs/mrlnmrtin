@@ -1,7 +1,5 @@
 "use client";
 
-import { Version } from "../ui";
-
 export default function Bio() {
   return (
     <div className="text-slate flex flex-col gap-4">
