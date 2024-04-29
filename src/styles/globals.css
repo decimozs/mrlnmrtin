@@ -21,6 +21,13 @@
   transform: translate(-50%, -50%);
 }
 
+.fixed-center {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .tooltip::after {
   font-style: normal;
   padding: 5px 1rem;
@@ -83,7 +90,7 @@
 .nvim::before {
   content: "i love vim motions btw ❤️";
   margin-left: -39.5rem;
-  margin-top: -5px;
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -217,15 +224,17 @@
   color: #a7a7a7;
 }
 
-.version {
-  color: #a7a7a7;
-  transition: color 0.3s ease;
+.version::after {
+  content: "source code ⚙️";
+  margin-left: 1.8rem;
+  margin-top: -5px;
+  text-align: center;
+  width: 144px;
 }
 
-.version:hover {
-  color: #ededed;
-}
-
-.version::before {
-  content: "source code";
+.year::before {
+  content: "Made by Marlon Martin";
+  margin-left: -13.5rem;
+  margin-top: -5px;
+  text-align: center;
 }

@@ -2,7 +2,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import { NeueMontreal } from "../../public/font";
-import { Nav } from "@/components/fragments";
+import { Footer, Nav } from "@/components/fragments";
 import { seo } from "@/config";
 import type { Viewport } from "next";
 
@@ -33,6 +33,7 @@ export default function RootLayout({
       >
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

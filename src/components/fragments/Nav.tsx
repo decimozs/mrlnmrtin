@@ -4,11 +4,23 @@ import { navItems } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ResumeButton } from "../ui";
+import { motion } from "framer-motion";
 
 const NavigationItems = () => {
   const currentPath = usePathname();
   return (
-    <nav className="flex items-center justify-between lg:w-[420px] lg:absolute lg:top-[10%] lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2">
+    <motion.nav
+      className="flex items-center justify-between lg:w-[420px] lg:absolute lg:top-[10%] lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2"
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: {
+          ease: "linear",
+          duration: 0.5,
+          delay: 0.5,
+        },
+      }}
+    >
       <div className="flex flex-row gap-4">
         {navItems.map((item, index) => (
           <Link
@@ -24,7 +36,7 @@ const NavigationItems = () => {
         ))}
       </div>
       <ResumeButton />
-    </nav>
+    </motion.nav>
   );
 };
 
