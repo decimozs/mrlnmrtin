@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -20,9 +21,13 @@ export default function Footer() {
         <p className="smooth-hover year btooltip cursor-pointer">@2024</p>
       </div>
       <div>
-        <p className="smooth-hover version tooltip cursor-pointer">
+        <Link
+          href="https://github.com/decimozs/mrlnmrtin"
+          target="_blank"
+          className="smooth-hover version tooltip cursor-pointer"
+        >
           + Version 3
-        </p>
+        </Link>
       </div>
     </motion.footer>
   );
