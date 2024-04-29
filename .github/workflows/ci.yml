@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: "main"
+    branches: ["main", "dev"]
 
 jobs:
   build:
@@ -11,9 +11,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
+
+      - uses: creyD/prettier_action@v4.3
+
         with:
           node-version: '20'
+
       - run: npm ci
+
       - run: npm run lint
+
       - run: npm run build
