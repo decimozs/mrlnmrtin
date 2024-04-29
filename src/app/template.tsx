@@ -14,8 +14,8 @@ export default function Transition({ children }: { children: ReactNode }) {
         animate={{
           opacity: 1,
           transition: {
-            ease: "easeIn",
-            duration: 1,
+            ease: "linear",
+            duration: 0.5,
             delay: 0.5,
           },
         }}
