@@ -110,7 +110,7 @@ const archiveItems: TArchiveProps[] = [
   },
   {
     title: "ART CLI",
-    href: "/https://github.com/decimozs/art-cli",
+    href: "https://github.com/decimozs/art-cli",
     year: 2023,
   },
   {
