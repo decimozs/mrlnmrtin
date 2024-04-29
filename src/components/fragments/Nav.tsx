@@ -17,7 +17,7 @@ const NavigationItems = () => {
         transition: {
           ease: "linear",
           duration: 0.5,
-          delay: 2,
+          delay: 2.5,
         },
       }}
     >

@@ -12,8 +12,8 @@ export default function Footer() {
         opacity: 1,
         transition: {
           ease: "linear",
-          duration: 1,
-          delay: 3,
+          duration: 0.5,
+          delay: 1.8,
         },
       }}
     >
@@ -26,7 +26,7 @@ export default function Footer() {
           target="_blank"
           className="smooth-hover version tooltip cursor-pointer"
         >
-          + Version 3
+          Version 3
         </Link>
       </div>
     </motion.footer>

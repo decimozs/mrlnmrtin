@@ -9,7 +9,7 @@ export default function Header() {
         products within the digital space.
       </p>
       <div className="text-slate lg:fixed lg:top-[15%] lg:w-[422px]">
-        <h1>Summer</h1>
+        <h1>Locus</h1>
         <div className="lg:flex lg:items-center lg:justify-between">
           <h1>Metropolitan Manila</h1>
           <Time />
