@@ -1,3 +1,5 @@
+"use client";
+
 import { Time } from "../ui";
 
 export default function Header() {
