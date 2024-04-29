@@ -4,13 +4,14 @@ export default function Bio() {
   return (
     <div className="text-slate flex flex-col gap-4">
       <p className="max-w-[423px]">
-        I have a strong passion for low-level programming, my current goal is to
-        explore emerging technologies that can bring benefits to the wider
-        community. Moreover, I am eager to contribute to open-source projects.
+        I have a strong passion for low-level programming, committed to the
+        development of resilient software applications. With a strong focus on
+        quality and performance to design and build robust solutions that can
+        withstand the demands of real-world scenarios.
       </p>
       <p className="max-w-[406px]">
         Current technology I&apos;m using in development right now include
-        Typescript, Tailwind CSS, and Supabase, along with{" "}
+        React, Typescript, Go, Java and Python along with{" "}
         <span className="text-white underline italic cursor-pointer nvim btooltip">
           <a href="https://github.com/decimozs/minimal-gruvbox" target="_blank">
             Neovim
