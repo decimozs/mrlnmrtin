@@ -11,8 +11,8 @@ export default function Footer() {
         opacity: 1,
         transition: {
           ease: "linear",
-          duration: 0.5,
-          delay: 1,
+          duration: 1,
+          delay: 1.5,
         },
       }}
     >
