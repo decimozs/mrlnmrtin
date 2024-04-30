@@ -1,7 +1,8 @@
 export default function getCurrentTime(): string {
   const now: Date = new Date();
-  const hours: number = now.getHours() % 12 || 12;
+  let hours: number = now.getHours() % 12;
+  hours = hours === 0 ? 12 : hours;
   const minutes: string = now.getMinutes().toString().padStart(2, "0");
-  const meridiem: string = hours >= 12 ? "AM" : "PM";
+  const meridiem: string = now.getHours() >= 12 ? "PM" : "AM";
   return `${hours}:${minutes} ${meridiem}`;
 }
